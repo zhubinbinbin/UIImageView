@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE1A7F321D81A5A700E9B1E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1A7F311D81A5A700E9B1E3 /* main.m */; };
+		BE1A7F351D81A5A700E9B1E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1A7F341D81A5A700E9B1E3 /* AppDelegate.m */; };
+		BE1A7F381D81A5A700E9B1E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1A7F371D81A5A700E9B1E3 /* ViewController.m */; };
+		BE1A7F3B1D81A5A700E9B1E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE1A7F391D81A5A700E9B1E3 /* Main.storyboard */; };
+		BE1A7F3D1D81A5A700E9B1E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE1A7F3C1D81A5A700E9B1E3 /* Assets.xcassets */; };
+		BE1A7F401D81A5A700E9B1E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE1A7F3E1D81A5A700E9B1E3 /* LaunchScreen.storyboard */; };
+		BE1A7F4B1D81A5A800E9B1E3 /* UIImageView____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1A7F4A1D81A5A800E9B1E3 /* UIImageView____Tests.m */; };
+		BE1A7F561D81A5A800E9B1E3 /* UIImageView____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1A7F551D81A5A800E9B1E3 /* UIImageView____UITests.m */; };
+		BE1A7F6D1D81B2E200E9B1E3 /* 箱子.png in Resources */ = {isa = PBXBuildFile; fileRef = BE1A7F6C1D81B2E200E9B1E3 /* 箱子.png */; };
+		BE1A7F721D81B63900E9B1E3 /* h1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE1A7F711D81B63900E9B1E3 /* h1.jpg */; };
+		BE1A7F751D82722B00E9B1E3 /* UIImage+ImageCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1A7F741D82722B00E9B1E3 /* UIImage+ImageCornerRadius.m */; };
+		BE1A7F781D82812500E9B1E3 /* MyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1A7F771D82812500E9B1E3 /* MyImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE1A7F471D81A5A800E9B1E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE1A7F251D81A5A700E9B1E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE1A7F2C1D81A5A700E9B1E3;
+			remoteInfo = "UIImageView(圆角)";
+		};
+		BE1A7F521D81A5A800E9B1E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE1A7F251D81A5A700E9B1E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE1A7F2C1D81A5A700E9B1E3;
+			remoteInfo = "UIImageView(圆角)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE1A7F2D1D81A5A700E9B1E3 /* UIImageView(coridus).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIImageView(coridus).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE1A7F311D81A5A700E9B1E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE1A7F331D81A5A700E9B1E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE1A7F341D81A5A700E9B1E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE1A7F361D81A5A700E9B1E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BE1A7F371D81A5A700E9B1E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BE1A7F3A1D81A5A700E9B1E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE1A7F3C1D81A5A700E9B1E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE1A7F3F1D81A5A700E9B1E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE1A7F411D81A5A700E9B1E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE1A7F461D81A5A800E9B1E3 /* UIImageView(coridus).xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIImageView(coridus).xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE1A7F4A1D81A5A800E9B1E3 /* UIImageView____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView____Tests.m"; sourceTree = "<group>"; };
+		BE1A7F4C1D81A5A800E9B1E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE1A7F511D81A5A800E9B1E3 /* UIImageView(coridus).xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIImageView(coridus).xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE1A7F551D81A5A800E9B1E3 /* UIImageView____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView____UITests.m"; sourceTree = "<group>"; };
+		BE1A7F571D81A5A800E9B1E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE1A7F6C1D81B2E200E9B1E3 /* 箱子.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "箱子.png"; sourceTree = "<group>"; };
+		BE1A7F711D81B63900E9B1E3 /* h1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h1.jpg; sourceTree = "<group>"; };
+		BE1A7F731D82722B00E9B1E3 /* UIImage+ImageCornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageCornerRadius.h"; sourceTree = "<group>"; };
+		BE1A7F741D82722B00E9B1E3 /* UIImage+ImageCornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageCornerRadius.m"; sourceTree = "<group>"; };
+		BE1A7F761D82812500E9B1E3 /* MyImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyImageView.h; sourceTree = "<group>"; };
+		BE1A7F771D82812500E9B1E3 /* MyImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyImageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE1A7F2A1D81A5A700E9B1E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE1A7F431D81A5A800E9B1E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE1A7F4E1D81A5A800E9B1E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE1A7F241D81A5A700E9B1E3 = {
+			isa = PBXGroup;
+			children = (
+				BE1A7F2F1D81A5A700E9B1E3 /* UIImageView(圆角) */,
+				BE1A7F491D81A5A800E9B1E3 /* UIImageView(圆角)Tests */,
+				BE1A7F541D81A5A800E9B1E3 /* UIImageView(圆角)UITests */,
+				BE1A7F2E1D81A5A700E9B1E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE1A7F2E1D81A5A700E9B1E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE1A7F2D1D81A5A700E9B1E3 /* UIImageView(coridus).app */,
+				BE1A7F461D81A5A800E9B1E3 /* UIImageView(coridus).xctest */,
+				BE1A7F511D81A5A800E9B1E3 /* UIImageView(coridus).xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE1A7F2F1D81A5A700E9B1E3 /* UIImageView(圆角) */ = {
+			isa = PBXGroup;
+			children = (
+				BE1A7F6C1D81B2E200E9B1E3 /* 箱子.png */,
+				BE1A7F731D82722B00E9B1E3 /* UIImage+ImageCornerRadius.h */,
+				BE1A7F741D82722B00E9B1E3 /* UIImage+ImageCornerRadius.m */,
+				BE1A7F761D82812500E9B1E3 /* MyImageView.h */,
+				BE1A7F771D82812500E9B1E3 /* MyImageView.m */,
+				BE1A7F331D81A5A700E9B1E3 /* AppDelegate.h */,
+				BE1A7F341D81A5A700E9B1E3 /* AppDelegate.m */,
+				BE1A7F711D81B63900E9B1E3 /* h1.jpg */,
+				BE1A7F361D81A5A700E9B1E3 /* ViewController.h */,
+				BE1A7F371D81A5A700E9B1E3 /* ViewController.m */,
+				BE1A7F391D81A5A700E9B1E3 /* Main.storyboard */,
+				BE1A7F3C1D81A5A700E9B1E3 /* Assets.xcassets */,
+				BE1A7F3E1D81A5A700E9B1E3 /* LaunchScreen.storyboard */,
+				BE1A7F411D81A5A700E9B1E3 /* Info.plist */,
+				BE1A7F301D81A5A700E9B1E3 /* Supporting Files */,
+			);
+			path = "UIImageView(圆角)";
+			sourceTree = "<group>";
+		};
+		BE1A7F301D81A5A700E9B1E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE1A7F311D81A5A700E9B1E3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE1A7F491D81A5A800E9B1E3 /* UIImageView(圆角)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BE1A7F4A1D81A5A800E9B1E3 /* UIImageView____Tests.m */,
+				BE1A7F4C1D81A5A800E9B1E3 /* Info.plist */,
+			);
+			path = "UIImageView(圆角)Tests";
+			sourceTree = "<group>";
+		};
+		BE1A7F541D81A5A800E9B1E3 /* UIImageView(圆角)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE1A7F551D81A5A800E9B1E3 /* UIImageView____UITests.m */,
+				BE1A7F571D81A5A800E9B1E3 /* Info.plist */,
+			);
+			path = "UIImageView(圆角)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE1A7F2C1D81A5A700E9B1E3 /* UIImageView(coridus) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE1A7F5A1D81A5A800E9B1E3 /* Build configuration list for PBXNativeTarget "UIImageView(coridus)" */;
+			buildPhases = (
+				BE1A7F291D81A5A700E9B1E3 /* Sources */,
+				BE1A7F2A1D81A5A700E9B1E3 /* Frameworks */,
+				BE1A7F2B1D81A5A700E9B1E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIImageView(coridus)";
+			productName = "UIImageView(圆角)";
+			productReference = BE1A7F2D1D81A5A700E9B1E3 /* UIImageView(coridus).app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE1A7F451D81A5A800E9B1E3 /* UIImageView(coridus)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE1A7F5D1D81A5A800E9B1E3 /* Build configuration list for PBXNativeTarget "UIImageView(coridus)Tests" */;
+			buildPhases = (
+				BE1A7F421D81A5A800E9B1E3 /* Sources */,
+				BE1A7F431D81A5A800E9B1E3 /* Frameworks */,
+				BE1A7F441D81A5A800E9B1E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE1A7F481D81A5A800E9B1E3 /* PBXTargetDependency */,
+			);
+			name = "UIImageView(coridus)Tests";
+			productName = "UIImageView(圆角)Tests";
+			productReference = BE1A7F461D81A5A800E9B1E3 /* UIImageView(coridus).xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE1A7F501D81A5A800E9B1E3 /* UIImageView(coridus)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE1A7F601D81A5A800E9B1E3 /* Build configuration list for PBXNativeTarget "UIImageView(coridus)UITests" */;
+			buildPhases = (
+				BE1A7F4D1D81A5A800E9B1E3 /* Sources */,
+				BE1A7F4E1D81A5A800E9B1E3 /* Frameworks */,
+				BE1A7F4F1D81A5A800E9B1E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE1A7F531D81A5A800E9B1E3 /* PBXTargetDependency */,
+			);
+			name = "UIImageView(coridus)UITests";
+			productName = "UIImageView(圆角)UITests";
+			productReference = BE1A7F511D81A5A800E9B1E3 /* UIImageView(coridus).xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE1A7F251D81A5A700E9B1E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "朱宾宾";
+				TargetAttributes = {
+					BE1A7F2C1D81A5A700E9B1E3 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BE1A7F451D81A5A800E9B1E3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BE1A7F2C1D81A5A700E9B1E3;
+					};
+					BE1A7F501D81A5A800E9B1E3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BE1A7F2C1D81A5A700E9B1E3;
+					};
+				};
+			};
+			buildConfigurationList = BE1A7F281D81A5A700E9B1E3 /* Build configuration list for PBXProject "UIImageView(coridus)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE1A7F241D81A5A700E9B1E3;
+			productRefGroup = BE1A7F2E1D81A5A700E9B1E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE1A7F2C1D81A5A700E9B1E3 /* UIImageView(coridus) */,
+				BE1A7F451D81A5A800E9B1E3 /* UIImageView(coridus)Tests */,
+				BE1A7F501D81A5A800E9B1E3 /* UIImageView(coridus)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE1A7F2B1D81A5A700E9B1E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1A7F721D81B63900E9B1E3 /* h1.jpg in Resources */,
+				BE1A7F401D81A5A700E9B1E3 /* LaunchScreen.storyboard in Resources */,
+				BE1A7F3D1D81A5A700E9B1E3 /* Assets.xcassets in Resources */,
+				BE1A7F6D1D81B2E200E9B1E3 /* 箱子.png in Resources */,
+				BE1A7F3B1D81A5A700E9B1E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE1A7F441D81A5A800E9B1E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE1A7F4F1D81A5A800E9B1E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE1A7F291D81A5A700E9B1E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1A7F381D81A5A700E9B1E3 /* ViewController.m in Sources */,
+				BE1A7F351D81A5A700E9B1E3 /* AppDelegate.m in Sources */,
+				BE1A7F751D82722B00E9B1E3 /* UIImage+ImageCornerRadius.m in Sources */,
+				BE1A7F781D82812500E9B1E3 /* MyImageView.m in Sources */,
+				BE1A7F321D81A5A700E9B1E3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE1A7F421D81A5A800E9B1E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1A7F4B1D81A5A800E9B1E3 /* UIImageView____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE1A7F4D1D81A5A800E9B1E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1A7F561D81A5A800E9B1E3 /* UIImageView____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE1A7F481D81A5A800E9B1E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE1A7F2C1D81A5A700E9B1E3 /* UIImageView(coridus) */;
+			targetProxy = BE1A7F471D81A5A800E9B1E3 /* PBXContainerItemProxy */;
+		};
+		BE1A7F531D81A5A800E9B1E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE1A7F2C1D81A5A700E9B1E3 /* UIImageView(coridus) */;
+			targetProxy = BE1A7F521D81A5A800E9B1E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE1A7F391D81A5A700E9B1E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE1A7F3A1D81A5A700E9B1E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE1A7F3E1D81A5A700E9B1E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE1A7F3F1D81A5A700E9B1E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE1A7F581D81A5A800E9B1E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE1A7F591D81A5A800E9B1E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE1A7F5B1D81A5A800E9B1E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UIImageView(圆角)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yf.com.UIImageView----";
+				PRODUCT_NAME = "UIImageView(coridus)";
+			};
+			name = Debug;
+		};
+		BE1A7F5C1D81A5A800E9B1E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UIImageView(圆角)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yf.com.UIImageView----";
+				PRODUCT_NAME = "UIImageView(coridus)";
+			};
+			name = Release;
+		};
+		BE1A7F5E1D81A5A800E9B1E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UIImageView(圆角)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yf.com.UIImageView----Tests";
+				PRODUCT_NAME = "UIImageView(coridus)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIImageView(coridus).app/UIImageView(coridus)";
+			};
+			name = Debug;
+		};
+		BE1A7F5F1D81A5A800E9B1E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UIImageView(圆角)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yf.com.UIImageView----Tests";
+				PRODUCT_NAME = "UIImageView(coridus)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIImageView(coridus).app/UIImageView(coridus)";
+			};
+			name = Release;
+		};
+		BE1A7F611D81A5A800E9B1E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UIImageView(圆角)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yf.com.UIImageView----UITests";
+				PRODUCT_NAME = "UIImageView(coridus)";
+				TEST_TARGET_NAME = "UIImageView(圆角)";
+			};
+			name = Debug;
+		};
+		BE1A7F621D81A5A800E9B1E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UIImageView(圆角)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yf.com.UIImageView----UITests";
+				PRODUCT_NAME = "UIImageView(coridus)";
+				TEST_TARGET_NAME = "UIImageView(圆角)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE1A7F281D81A5A700E9B1E3 /* Build configuration list for PBXProject "UIImageView(coridus)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE1A7F581D81A5A800E9B1E3 /* Debug */,
+				BE1A7F591D81A5A800E9B1E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE1A7F5A1D81A5A800E9B1E3 /* Build configuration list for PBXNativeTarget "UIImageView(coridus)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE1A7F5B1D81A5A800E9B1E3 /* Debug */,
+				BE1A7F5C1D81A5A800E9B1E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE1A7F5D1D81A5A800E9B1E3 /* Build configuration list for PBXNativeTarget "UIImageView(coridus)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE1A7F5E1D81A5A800E9B1E3 /* Debug */,
+				BE1A7F5F1D81A5A800E9B1E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE1A7F601D81A5A800E9B1E3 /* Build configuration list for PBXNativeTarget "UIImageView(coridus)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE1A7F611D81A5A800E9B1E3 /* Debug */,
+				BE1A7F621D81A5A800E9B1E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE1A7F251D81A5A700E9B1E3 /* Project object */;
+}
